@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: w95;
+}
+
+@font-face {
+    font-family: w95;
+    src: url(W95FA.otf);
+}
+body {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: #acd2fb;
+}
+
+.main {
+    width: 600px;
+    height: 300px;
+    padding: 30px;
+    background-color: #1380f5;
+    border-radius: 10px;
+    transition: all 0.5s;
+    clip-path: circle(22.5% at 100% 0);
+    
+}
+.main:hover {
+    transition: all 0.5s;
+    clip-path: circle(141% at 100% 0);
+
+}
+.main h1 {
+    margin: 30px 0;
+    letter-spacing: 2px;
+    color: rgb(24,241,158);
+}
+
+.main p {
+    color: #fff;
+    line-height: 150%;
+}
+
+.main h3 {
+    color: #fff;
+    text-transform: uppercase;
+    margin: 30px 0;
+    letter-spacing: 1px;
+}
